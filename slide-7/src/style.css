@@ -1,0 +1,14 @@
+html {
+  background: #ccc url("./assets/luca-bravo.jpg");
+  background-position: 50% 50%;
+}
+
+body {
+  background: white;
+  border-radius: 2px;
+  font-family: sans-serif;
+  margin: 40px auto;
+  max-width: 320px;
+  padding: 12px 16px;
+  text-align: center;
+}
