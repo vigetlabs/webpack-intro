@@ -23,7 +23,7 @@ slide-7:
 	@ $(webpack) -p --config ./slide-7/webpack.config.js --context ./slide-7/ --env=production
 
 clean:
-	@ rm slide-1/dist slide-2/dist slide-3/dist slide-4/dist slide-5/dist slide-7/dist
+	@ rm -rf slide-*/dist
 
 
-.PHONY: slide-1 slide-2 slide-3 slide-4 slide-5 slide-6 slide-7
+.PHONY: slide-1 slide-2 slide-3 slide-4 slide-5 slide-6 slide-7 clean
